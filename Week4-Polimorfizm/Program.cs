@@ -43,7 +43,7 @@ class Dikdortgen:Sekil
     public Dikdortgen(decimal yukseklik, decimal genislik) : base(yukseklik, genislik)
     {
         this._alan = (genislik * yukseklik);
-        Console.WriteLine($"Dikdörtgen Ölçüleri\nGenislik: {genislik}\nYükseklik {yukseklik}\nDikdörtgenin:{_alan}");
+        Console.WriteLine($"Dikdörtgen Ölçüleri\nGenislik: {genislik}\nYükseklik {yukseklik}\nDikdörtgenin Alanı:{_alan}");
     }
 }
 
